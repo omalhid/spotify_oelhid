@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html{
+    font-size: 10px
+}
+body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 8rem;
+    width:100vw;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav img{
+    width: 20rem;
+    padding: 1rem 3rem;
+}
+
+nav ul{
+
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-right: 2rem;
+    font-size: 1.75rem;
+    font-weight:300;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#motto-intro-section{
+    background-image: url(../images/landing.jpg);
+    width: 100vw;
+    height: 130vh;
+    background-size: cover;
+    background-position: 3rem;
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+#motto-intro-section h1{
+    font-size: 10rem;
+    margin:0;
+    font-weight: 600;
+}
+
+#motto-intro-section p{
+    font-size: 3.5rem;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#spotify-offers-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 10rem;
+}
+
+#spotify-offers-section h2{
+    border-bottom: 0.4rem solid #00B172;
+    font-size: 3.5rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+#containers{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100vw;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+}
+
+.inside img{
+    height:12rem;
+}
+
+.inside h3{
+    color: #00B172;
+    font-size: 2.5rem;
+}
+
+.inside p{
+    font-weight:lighter;
+    font-size: 1.75rem;
+    width: 240px;
+}
+
+#yeezy-section{
+    background-color: #00B172;
+    background-image: url(/labs/spotify_clone/spotify_oelhid/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10vw;
+    width: 90vw;
+    margin:auto;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+#yeezy-section img {
+    width:25vw;
+}
+
+#yeezy-section h2{
+    font-size: 4rem;
+    border-bottom: 0.4rem solid #FFF;
+}
+
+#yeezy-section h3{
+    font-size: 3rem;
+}
+
+#yeezy-section p{
+    font-size: 2rem;
+    font-weight: lighter;
+    width:375px;
+}
